@@ -71,15 +71,15 @@ function asideSectionTogglebtn(){
 }
 
 
-const hireMe = document.querySelector('.hire-me');
-hireMe.addEventListener('click',()=>{
-    const sectionIndex = hireMe.getAttribute('data-section-index');
-    console.log(sectionIndex)
+// const hireMe = document.querySelector('.hire-me');
+// hireMe.addEventListener('click',()=>{
+//     const sectionIndex = hireMe.getAttribute('data-section-index');
+//     console.log(sectionIndex)
 
-   showSection(hireMe);
-   updateNav(hireMe);
-   addBackSection(hireMe)
-})  
+//    showSection(hireMe);
+//    updateNav(hireMe);
+//    addBackSection(hireMe)
+// })  
 
 function updateNav(el){
     
